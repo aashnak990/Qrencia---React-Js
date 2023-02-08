@@ -1,0 +1,47 @@
+{
+  "events": [
+    {
+      "title": "Cooking Without Fire",
+      "image": "https://www.sitters.co.uk/media/1157229/15-fun-cooking-activities-main.png",
+      "date": "2022-10-01",
+      "mode":"ONLINE",
+      "description": "6:00 PM to 9:00 PM | 1st August, 2023",
+      "id": "1"
+    },
+    {
+      "title": "Puppet Modelling",
+      "image": "https://i.ytimg.com/vi/IVu6354FcM4/maxresdefault.jpg",
+      "date": "2022-10-01",
+      "mode":"OFFLINE",
+      "description": "6:00 PM to 9:00 PM | 1st August, 2023",
+      "id": "2"
+    },
+    {
+      "title": "Chess Master",
+      "image": "https://i1.wp.com/www.arabamerica.com/wp-content/uploads/2019/05/url13.jpg?fit=1024%2C684&ssl=1",
+      "date": "2022-10-01",
+      "mode":"ONLINE",
+      "description": "8:00 AM to 8:00 PM | 26th Feb, 2023",
+      "id": "3"
+    },
+    {
+      "title": "Solo Singing",
+      "image": "https://linehilton.com/wp-content/uploads/2012/09/BobbyMcFerrin960x540.png",
+      "date": "2022-10-01",
+      "mode":"ONLINE",
+      "description": "6:00 PM to 9:00 PM | 1st August, 2023",
+      "id": "4"
+    },
+    {
+      "title": "Best out of waste",
+      "image": "https://img.staticmb.com/mbcontent/images/uploads/2022/9/best-out-of-waste-idea-rabbit.jpg",
+      "date": "2022-10-01",
+      "mode":"OFFLINE",
+      "description": "6:00 PM to 8:00 PM | 20th Dec, 2023",
+      "id": "5"
+    }
+  ],
+  "users": [{
+    "email":"aashnak990@gmail.com","password":"$2a$12$BX8QO7aUET/LuorffQmgQekwEFgWmeR2mGyS7TwEA9Gz.pJ7JMpke"
+  }]
+}
