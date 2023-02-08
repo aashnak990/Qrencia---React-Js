@@ -1,0 +1,215 @@
+.carousel-indicators [data-bs-target] {
+    background-color: #224B7F !important;
+    border: 1px solid #224B7F !important;
+}
+
+.carousel-caption {
+    width: 40%;
+    bottom: 11rem !important;
+    left: 10% !important;
+    padding-top: 2.25rem !important;
+    padding-bottom: 1.25rem !important;
+    color: #fff !important;
+    text-align: left !important;
+}
+
+.carousel-inner {
+    height: 65vh;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 0;
+    width: 100;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    transform: rotate(90deg);
+    height: 12px;
+    margin-bottom: 12rem;
+    margin-right: -82%;
+    list-style: none;
+    gap: 0.5em;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    visibility: hidden;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+@media(max-width:1300px) {
+    .carousel-caption {
+        bottom: 6rem !important;
+        left: 10% !important;
+        padding-top: 2.25rem !important;
+        padding-bottom: 1.25rem !important;
+    }
+
+    .carousel-inner {
+        height: 60vh;
+    }
+}
+
+@media(max-width:1220px) {
+    .carousel-caption {
+        bottom: 6rem !important;
+        left: 10% !important;
+        padding-top: 2.25rem !important;
+        padding-bottom: 1.25rem !important;
+    }
+
+    .carousel-inner {
+        height: 58vh;
+    }
+}
+
+@media(max-width:1175px) {
+    .carousel-caption {
+        bottom: 6rem !important;
+        left: 10% !important;
+        padding-top: 2.25rem !important;
+        padding-bottom: 1.25rem !important;
+    }
+
+    .carousel-inner {
+        height: 55vh;
+    }
+}
+
+@media(max-width:1110px) {
+    .carousel-caption {
+        bottom: 5rem !important;
+        left: 10% !important;
+        padding-top: 2.25rem !important;
+        padding-bottom: 1.25rem !important;
+    }
+
+    .carousel-inner {
+        height: 48vh;
+    }
+}
+
+@media(max-width:975px) {
+    .carousel-caption {
+        bottom: 2rem !important;
+        left: 10% !important;
+        padding-top: 2.25rem !important;
+        padding-bottom: 1.25rem !important;
+    }
+
+    .carousel-inner {
+        height: 45vh;
+    }
+}
+
+@media(max-width:900px) {
+    .carousel-caption {
+        bottom: 0rem !important;
+        left: 10% !important;
+        padding-top: 2.25rem !important;
+        padding-bottom: 1.25rem !important;
+    }
+
+    .carousel-inner {
+        height: 40vh;
+    }
+}
+
+@media(max-width:912px) {
+    .carousel-caption {
+        bottom: 3rem !important;
+        left: 10% !important;
+        padding-top: 2.25rem !important;
+        padding-bottom: 1.25rem !important;
+    }
+
+    .carousel-inner {
+        height: 50vh;
+    }
+
+    .carousel-image {
+        height: 50vh;
+    }
+
+    .carousel-indicators {
+        margin-bottom: 10rem !important;
+    }
+}
+
+@media(max-width:768px) {
+
+    .carousel-caption {
+        bottom: 8rem !important;
+        left: 10% !important;
+        padding-top: 2.25rem !important;
+        padding-bottom: 1.25rem !important;
+    }
+
+    .carousel-inner {
+        height: 55vh;
+    }
+
+    .carousel-image {
+        height: 55vh;
+    }
+}
+
+@media(max-width:550px) {
+
+    .carousel-caption {
+        bottom: 2rem !important;
+        left: 10% !important;
+        padding-top: 2.25rem !important;
+        padding-bottom: 1.25rem !important;
+    }
+
+    .carousel-indicators {
+        margin-bottom: 8rem !important;
+    }
+
+    .carousel-inner {
+        height: 50vh;
+    }
+
+    .carousel-image {
+        height: 50vh;
+    }
+}
+
+
+@media(max-width:480px) {
+
+    .carousel-caption {
+        bottom: 3rem !important;
+        left: 10% !important;
+        padding-top: 2.25rem !important;
+        padding-bottom: 1.25rem !important;
+    }
+
+    .carousel-inner {
+        height: 40vh;
+    }
+
+    .carousel-image {
+        height: 40vh;
+        object-fit: cover;
+    }
+
+    .carousel-indicators {
+        margin-right: -75%;
+        list-style: none;
+        gap: 0.5em;
+        margin-bottom: 8rem;
+    }
+
+    .carousel-caption {
+        width: 60%;
+    }
+
+}

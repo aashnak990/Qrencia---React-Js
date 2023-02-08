@@ -1,0 +1,66 @@
+.competitionsCard {
+  min-height:320px;
+  width:100%;
+}
+.competitionsImage {
+  padding:5%;
+  border-radius: 20px!important;
+  height:200px;
+}
+.competitionsTitle {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.competitionsDescription {
+  font-size: 0.95em;
+}
+.competitionsSubTitle{
+  font-size: 0.8em;
+}
+.competitionsButton,.competitionsButton:hover,.competitionsButton:active{
+  color:#FFFFFF;
+  background: #224B7F;
+  border:none;
+  border-radius: 4px;
+}
+
+@media(max-width:480px){
+  .competitionsImage {
+    height:150px;
+  }
+  .competitionsTitle {
+    font-size: 1.1em;
+  }
+  .competitionsDescription {
+    font-size: 0.85em;
+  }
+  .competitionsSubTitle{
+    font-size: 0.7em;
+  }
+  .competitionsButton,.competitionsButton:hover,.competitionsButton:active{
+    font-size: 0.8em;
+  }
+  .competitionsCard {
+    min-height:300px;
+  }
+}
+@media(min-width:480px) and (max-width:920px){
+  .competitionsImage {
+    height:150px;
+  }
+  .competitionsTitle {
+    font-size: 1em;
+  }
+  .competitionsDescription {
+    font-size: 0.8em;
+  }
+  .competitionsSubTitle{
+    font-size: 0.7em;
+  }
+  .competitionsButton,.competitionsButton:hover,.competitionsButton:active{
+    font-size: 0.8em;
+  }
+  .competitionsCard {
+    min-height:300px;
+  }
+}
