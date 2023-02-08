@@ -46,7 +46,7 @@ function CompetitionsPage() {
       <h1 className={classes.headings}>Today's Competitions</h1>
       <Suspense fallback={<p style={{ textAlign: 'center' }}>Loading...</p>}>
         <Await resolve={filteredList}>
-          {(loadedCompetitions) => <CompetitionsList competitions={loadedCompetitions} />}
+          <CompetitionsList competitions={filteredList} />
         </Await>
       </Suspense>
     </>
