@@ -1,0 +1,87 @@
+.competitionsCard {
+  min-height:320px;
+  width:100%;
+}
+.competitionsImage {
+  padding:5%;
+  border-radius: 20px!important;
+  height:200px;
+}
+.competitionsTitle {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.competitionsDescription {
+  font-size: 0.95em;
+}
+.competitionsSubTitle{
+  font-size: 0.8em;
+}
+.competitionsButton,.competitionsButton:hover,.competitionsButton:active{
+  color:#FFFFFF;
+  background: #224B7F;
+  border:none;
+  border-radius: 4px;
+}
+.filterContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom:2%;
+}
+
+.selectBox {
+  width: 10em;
+  padding: 2.5%;
+  background: #D4F1F4;
+  border: 2px solid #ADD8E6;
+  color: #000000;
+}
+
+#categoryList {
+  padding: 5px;
+}
+
+@media(max-width:480px){
+  .competitionsImage {
+    height:150px;
+  }
+  .competitionsTitle {
+    font-size: 1.1em;
+  }
+  .competitionsDescription {
+    font-size: 0.85em;
+  }
+  .competitionsSubTitle{
+    font-size: 0.7em;
+  }
+  .competitionsButton,.competitionsButton:hover,.competitionsButton:active{
+    font-size: 0.8em;
+  }
+  .competitionsCard {
+    min-height:300px;
+  }
+}
+@media(min-width:480px) and (max-width:920px){
+  .competitionsImage {
+    height:150px;
+  }
+  .competitionsTitle {
+    font-size: 1em;
+  }
+  .competitionsDescription {
+    font-size: 0.8em;
+  }
+  .competitionsSubTitle{
+    font-size: 0.7em;
+  }
+  .competitionsButton,.competitionsButton:hover,.competitionsButton:active{
+    font-size: 0.8em;
+  }
+  .competitionsCard {
+    min-height:300px;
+  }
+}

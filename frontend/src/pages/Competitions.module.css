@@ -1,0 +1,12 @@
+.headings {
+  font-size: 1.4em;
+  font-weight: 700;
+  margin-top: 1%;
+}
+
+@media (max-width:480px) {
+  .headings {
+    font-size: 1.2em;
+    margin-top: 2%;
+  }
+}
